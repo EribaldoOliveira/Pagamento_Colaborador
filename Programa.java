@@ -23,9 +23,19 @@ public class Programa {
 		f2.valorPorHora = sc.nextDouble();
 		f2.quantidadehoras  = sc.nextInt();
 		
-		double total = f1.total() + f2.total();
+		double totalf1 = f1.total();
+		double totalf2 = f2.total();
 		
-		System.out.printf("Total = %.2f%n", total);
+		double totalGeral = f1.total() + f2.total();
+		
+		System.out.println();
+		System.out.println("***************************");
+		System.out.printf("Total_Colaborador 1: %.2f%n", totalf1);
+		System.out.printf("Total_Colaborador 2: %.2f%n", totalf2);
+		
+		System.out.println();
+		
+		System.out.printf("     TotalGeral = %.2f%n", totalGeral);
 		
 		sc.close();
 		
