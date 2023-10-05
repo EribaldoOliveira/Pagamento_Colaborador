@@ -2,9 +2,9 @@
 public class Colaborador {
 	public String nome;
 	public Double valorPorHora;
-	public int quantidadehoras;
+	public int quantidadeHoras;
 	
 	public double total() {
-		return valorPorHora * quantidadehoras;
+		return valorPorHora * quantidadeHoras;
 	}
 }
